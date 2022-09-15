@@ -1,6 +1,6 @@
 <div cdkDropListGroup>
   <div class="shift-container mid-shift">
-    <h2>Mid Shift</h2>
+    <h2>MID Shift</h2>
     <div cdkDropList [cdkDropListData]="midshift" class="shift-list" (cdkDropListDropped)="drop($event)">
       <div class="shift-box" *ngFor="let item of midshift" [cdkDragData]="item" cdkDrag>
         {{item}}
@@ -9,7 +9,7 @@
   </div>
 
   <div class="shift-container day-shift">
-    <h2>Day Shift</h2>
+    <h2>DAY Shift</h2>
     <div cdkDropList [cdkDropListData]="dayshift" class="shift-list"
     (cdkDropListDropped)="drop($event)">
       <div class="shift-box" *ngFor="let item of dayshift" [cdkDragData]="item" cdkDrag>
@@ -19,7 +19,7 @@
   </div>
 
   <div class="shift-container eve-shift">
-    <h2>Mid Shift</h2>
+    <h2>EVE Shift</h2>
     <div cdkDropList [cdkDropListData]="eveshift" class="shift-list" (cdkDropListDropped)="drop($event)">
       <div class="shift-box" *ngFor="let item of eveshift" [cdkDragData]="item" cdkDrag>
         {{item}}
