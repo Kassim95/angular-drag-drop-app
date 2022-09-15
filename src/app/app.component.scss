@@ -1,0 +1,45 @@
+.shift-list {
+    display: inline-flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+h2 {
+    background-color: #8080804f;
+}
+
+.shift-box {
+    border: 1px solid;
+    width: 100px;
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mid-shift .shift-box {
+    border-color: rgb(0, 208, 255);
+}
+
+.day-shift .shift-box {
+    border-color: rgb(222, 187, 9);
+}
+
+.eve-shift .shift-box {
+    border-color: rgb(255, 149, 0);
+}
+
+.cdk-drag-preview {
+    height: 17px !important;
+    background-color: silver;
+}
+
+.cdk-drag-placeholder {
+    background-color: #ffaa01;
+}
+
+.cdk-drag-preview, .cdk-drag-placeholder {
+    opacity: 0.5;
+}
